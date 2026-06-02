@@ -2,14 +2,16 @@
 
 **X-Ray vision for Tech Non-Profits, Foundations, and Wikipedia.**
 
-OpenWeb Transparency is a privacy-focused, tracker-free browser extension that cuts through the PR spin of major tech foundations. It injects raw, audited IRS Form 990 financial data, executive compensation, and asset reports directly into the websites of the organizations that shape the open web.
+OpenWeb Transparency is a privacy-focused, tracker-free browser extension that cuts through the PR spin of major tech foundations. 
+
+It injects raw, audited IRS Form 990 financial data, asset reports, and executive compensation directly into the websites of the organizations that shape the open web.
 
 ---
 
 ## ✨ Features
 
 - 🚫 **Block Aggressive Banners**: Automatically hides Wikipedia's notorious, screen-filling donation popups.
-- 💰 **Follow The Money**: Displays up-to-date (2023–2025) revenue, total assets, and executive pay for major tech non-profits.
+- 💰 **Follow The Money**: Displays up-to-date (2023–2025) revenue, assets, and executive compensation for major tech non-profits.
 - 📖 **Grokipedia Integration**: Adds a dynamic link on Wikipedia article pages to instantly check if the topic is covered on Grokipedia.
 - 🎨 **Unified Overlay UI**: A sleek, pure-black (`#000000` @ 80% opacity) overlay with consistent typography, dimensions, and layout across all supported sites.
 - 🛡️ **Zero Trackers**: No data collection, no ads, no telemetry. Just pure, transparent code.
@@ -22,10 +24,10 @@ OpenWeb Transparency currently injects financial transparency overlays into the 
 | Organization | Domain |
 | :--- | :--- |
 | **Wikimedia Foundation** | `wikipedia.org` |
-| **Linux Foundation** | `linuxfoundation.org` |
 | **Mozilla Foundation** | `mozilla.org`, `mozilla.com` |
-| **Internet Archive** | `archive.org` |
+| **Linux Foundation** | `linuxfoundation.org` |
 | **Python Software Foundation** | `python.org` |
+| **Internet Archive** | `archive.org` |
 | **Tor Project** | `torproject.org` |
 | **The Perl Foundation** | `perlfoundation.org` |
 
@@ -33,24 +35,27 @@ OpenWeb Transparency currently injects financial transparency overlays into the 
 
 ## 🚀 Installation
 
-### Chrome, Brave, Edge, & Chromium Browsers
-1. Download the latest release `.zip` from the [Releases Page](#) and extract it to a folder on your computer.
-2. Open your browser and navigate to `chrome://extensions/` (or `brave://extensions/`).
+### Chromium-based Browsers
+1. Download the latest release `.zip` archive and extract it to a directory on your computer.
+2. Open your browser and navigate to `chrome://extensions` (or `brave://extensions`).
 3. Enable **Developer mode** (toggle in the top right corner).
-4. Click **Load unpacked** and select the folder where you extracted the extension.
+4. Click **Load unpacked** and select the directory where you extracted the archive.
 5. *Boom! Done.* Visit Wikipedia or any supported foundation site to see it in action.
 
-### Firefox
-1. Download the latest release `.zip` from the [Releases Page](#) and extract it.
-2. Navigate to `about:debugging#/runtime/this-firefox`.
-3. Click **Load Temporary Add-on...** and select the `manifest.json` file from the extracted folder.
-*(Note: Temporary add-ons in Firefox are removed when the browser restarts. For permanent installation, the extension must be signed by Mozilla or installed via the official Firefox Add-ons store once published).*
+### Firefox-based Browsers (experimental)
+1. Download the latest release `.zip` archive and extract it to a directory on your computer.
+2. Open your browser and navigate to `about:debugging#/runtime/this-firefox`.
+3. Click **Load Temporary Add-on...** and select the `manifest.json` file from directory where you extracted the archive.
+
+*(Note: Temporary add-ons in Firefox are removed when the browser restarts. For permanent installation, the extension must be signed by Mozilla or installed via the official Firefox Add-ons store once published (in the future)).*
 
 ---
 
 ## 🛠️ Development & Contributing
 
-This project is open-source and welcomes contributions! If you want to add a new tech foundation, update financial figures based on the latest IRS 990 filings, or improve the UI:
+This project is open-source and is therefore open to contributions from the community! 
+
+If you want to add a new tech foundation, update financial figures based on the latest IRS 990 filings, improve the UI, or anything else you believe would make this project more awesome:
 
 1. **Fork** the repository.
 2. **Clone** your fork locally.
@@ -58,15 +63,19 @@ This project is open-source and welcomes contributions! If you want to add a new
 4. Add the domain to the `host_permissions` and `content_scripts` arrays in `manifest.json`.
 5. Submit a **Pull Request**.
 
-> 💡 **Not a developer?** If you have updated financial figures, a new foundation you'd like to see added, or a feature idea but don't want to write the code yourself, please [open an Issue](#) or contact me directly! I am always happy to research and implement new data.
+> 💡 **Not a developer?** If you have a new foundation, or updated financial figures you'd like to see added, or a feature idea but don't want to write the code yourself, please contact me directly! I am always happy to research and implement new ideas.
 
 ---
 
 ## 🙏 Acknowledgements
 
-**OpenWeb Transparency** is a heavily modified and expanded fork of the original **[Wikipedia Donation Destroyer](https://github.com/BryanLunduke/Wikipedia-Donation-Destroyer)** created by [Bryan Lunduke](https://github.com/BryanLunduke). 
+**OpenWeb Transparency** is a heavily modified and expanded fork of the original **[Wikipedia Donation Destroyer](https://github.com/BryanLunduke/Wikipedia-Donation-Destroyer)** browser extension created by [Bryan Lunduke](https://github.com/BryanLunduke). 
 
-The original project laid the excellent groundwork for holding tech non-profits accountable by injecting raw financial data directly into the browser. This fork expands the scope to include more foundations, updates the financial data to the absolute latest tax filings, and modernizes the entire codebase and UI.
+The original project built an excellent browser framework for holding tech non-profits accountable by injecting raw financial data directly into the browser.
+
+However, in my opinion, the original project felt incomplete and abandoned, and was never given a chance to prove its real potential.
+
+This fork expands the scope to include more foundations, updates the financial data to the absolute latest tax filings, and modernizes the entire codebase and UI.
 
 ---
 
@@ -79,5 +88,9 @@ This project is licensed under the **BSD 2-Clause License** - see the [LICENSE](
 
 ---
 
-Maintained by Chris McGimpsey-Jones <chrisjones.unixmen@gmail.com>
+## 👨‍💻 Author
+
+Chris McGimpsey-Jones (2026)
+
+chrisjones.unixmen@gmail.com
 
