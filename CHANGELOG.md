@@ -2,6 +2,14 @@
 
 All notable changes to the **OpenWeb Transparency** browser extension will be documented in this file.
 
+## [1.1.0] - 2026-06-04
+
+### Added
+- **Logo:** Added image files for logo of range of sizes.
+
+### Fixed
+- **Bugs:** Minor code fixes.
+
 ## [1.0.0] - 2026-06-02
 
 ### 🎉 Initial Release of "OpenWeb Transparency" (Fork)
