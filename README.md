@@ -1,3 +1,6 @@
+
+![OpenWeb Transparency logo](icons/openweb-transparency-logo_128px.png)
+
 # 🕵️ OpenWeb Transparency
 
 **X-Ray vision for Tech Non-Profits, Foundations, and Wikipedia.**
