@@ -2,6 +2,11 @@
 
 All notable changes to the **OpenWeb Transparency** browser extension will be documented in this file.
 
+## [1.2.0] - 2026-10-10
+
+### Added
+- **Free Software Foundation Support:** Added `owt_fsf.js` to track Free Software Foundation (FSF) financials.
+
 ## [1.1.0] - 2026-06-04
 
 ### Added

@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "OpenWeb Transparency",
   "short_name": "OWT",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "X-Ray vision for Tech Non-Profits, Foundations, and Wikipedia. Injects financial data directly into your browser.",
   "author": "Chris McGimpsey-Jones",
 "icons": {
@@ -25,7 +25,8 @@
     "https://*.linuxfoundation.org/*",
     "https://*.mozilla.org/*",
     "https://*.mozilla.com/*",
-    "https://*.perlfoundation.org/*"
+    "https://*.perlfoundation.org/*",
+    "https://*.fsf.org/*"
   ],
   "content_scripts": [
     {
@@ -59,6 +60,11 @@
       "matches": [
         "https://*.perlfoundation.org/*"],
       "js": ["owt_perl.js"]
+    },
+    {
+      "matches": [
+        "https://*.fsf.org/*"],
+      "js": ["owt_fsf.js"]
     }
   ]
 }

@@ -28,6 +28,7 @@ OpenWeb Transparency currently injects financial transparency overlays into the 
 | :--- | :--- |
 | **Wikimedia Foundation** | `wikipedia.org` |
 | **Mozilla Foundation** | `mozilla.org`, `mozilla.com` |
+| **Free Software Foundation** | `fsf.org` |
 | **Linux Foundation** | `linuxfoundation.org` |
 | **Python Software Foundation** | `python.org` |
 | **Internet Archive** | `archive.org` |
@@ -37,6 +38,10 @@ OpenWeb Transparency currently injects financial transparency overlays into the 
 ---
 
 ## 🚀 Installation
+
+### From the Chrome Web Store
+
+https://chromewebstore.google.com/detail/openweb-transparency/jdaglfkabfcdngjgdgmkjnalbecfghjo
 
 ### Chromium-based Browsers
 1. Download the latest release `.zip` archive and extract it to a directory on your computer.
