@@ -61,14 +61,14 @@ content.innerHTML = `
     Executive Director compensation: <strong>(US)$147,746</strong>
   </div>
   <div style="font-size: 13px; opacity: 0.9; margin-top: 12px;">
-    Sources:
+    Source:
     <a href="https://www.fsf.org/about/financial"
        target="_blank"
        style="color: #a5d8ff; text-decoration: none; border-bottom: 1px dotted #a5d8ff;">
-      Financial statement
+      Free Software Foundation Financial Statement
     </a>
     <div style="font-weight: 600; font-size: 10px; margin-top: 12px;">
-      Released under BSD 2-Clause License | Mod by Chris McGimpsey-Jones
+      Released under BSD 2-Clause License | By Chris McGimpsey-Jones
     </div>
   </div>`;
 

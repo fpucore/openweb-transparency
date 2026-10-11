@@ -2,6 +2,11 @@
 
 All notable changes to the **OpenWeb Transparency** browser extension will be documented in this file.
 
+## [1.2.1] - 2026-10-11
+
+### Fixed
+- **Typos:** Minor typo corrections.
+
 ## [1.2.0] - 2026-10-10
 
 ### Added

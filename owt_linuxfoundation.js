@@ -74,7 +74,7 @@ content.innerHTML = `
       Annual Report
     </a>
     <div style="font-weight: 600; font-size: 10px; margin-top: 12px;">
-      Released under BSD 2-Clause License | Mod by Chris McGimpsey-Jones
+      Released under BSD 2-Clause License | By Chris McGimpsey-Jones
     </div>
   </div>`;
 
