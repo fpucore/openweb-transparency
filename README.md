@@ -19,6 +19,8 @@ It injects verified IRS Form 990 filings, corporate disclosures, asset reports, 
 - 🛡️ **Zero Trackers**: No data collection, no ads, no telemetry. Just pure, transparent code.
 - ⚡ **Modern Codebase**: Fully refactored using modern JavaScript (IIFE scope isolation, Template Literals, ES6+) for maximum performance and maintainability.
 
+---
+
 ## 🌐 Supported Organizations
 
 OpenWeb Transparency currently injects financial disclosure overlays into the following domains so you can decide whether it is an entity you want to support:
