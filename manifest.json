@@ -2,10 +2,10 @@
   "manifest_version": 3,
   "name": "OpenWeb Transparency",
   "short_name": "OWT",
-  "version": "1.2.1",
-  "description": "X-Ray vision for Tech Non-Profits, Foundations, and Wikipedia. Injects financial data directly into your browser.",
+  "version": "1.3.0",
+  "description": "Financial transparency for Tech Non-Profits, Foundations, and Wikipedia. Injects verified financial disclosures directly into your browser.",
   "author": "Chris McGimpsey-Jones",
-"icons": {
+  "icons": {
     "16": "icons/openweb-transparency-logo_16px.png",
     "32": "icons/openweb-transparency-logo_32px.png",
     "48": "icons/openweb-transparency-logo_48px.png",
@@ -26,7 +26,9 @@
     "https://*.mozilla.org/*",
     "https://*.mozilla.com/*",
     "https://*.perlfoundation.org/*",
-    "https://*.fsf.org/*"
+    "https://*.fsf.org/*",
+    "https://*.duckduckgo.com/*",
+    "https://*.ecosia.org/*"
   ],
   "content_scripts": [
     {
@@ -57,14 +59,20 @@
       "js": ["owt_mozilla.js"]
     },
     {
-      "matches": [
-        "https://*.perlfoundation.org/*"],
+      "matches": ["https://*.perlfoundation.org/*"],
       "js": ["owt_perl.js"]
     },
     {
-      "matches": [
-        "https://*.fsf.org/*"],
+      "matches": ["https://*.fsf.org/*"],
       "js": ["owt_fsf.js"]
+    },
+    {
+      "matches": ["https://*.duckduckgo.com/*"],
+      "js": ["owt_duckduckgo.js"]
+    },
+    {
+      "matches": ["https://*.ecosia.org/*"],
+      "js": ["owt_ecosia.js"]
     }
   ]
 }

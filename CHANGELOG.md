@@ -2,6 +2,20 @@
 
 All notable changes to the **OpenWeb Transparency** browser extension will be documented in this file.
 
+## [1.3.0] - 2026-10-18
+
+### Added
+- **DuckDuckGo and Ecosia Support:** Added `owt_duckduckgo.js` and `owt_ecosia.js` to display verified financial disclosures for DuckDuckGo UK Ltd. and Ecosia GmbH.
+
+### Changed
+- **Terminology Standardization:** Unified all overlay headers (`[Organization] — Financial Overview (YYYY)`), currency formatting (`US$`), financial metric labels (`Total Assets`, `Operating Expenses`, `Cash Reserves`, `Project Allocations`), and citation labels (`Verified Sources:`) across all 10 content scripts.
+- **DOM & Security Hardening:** Wrapped all content scripts in Immediately Invoked Function Expressions (IIFEs) with duplicate-injection checks (`#owt-overlay-banner`), added `rel="noopener noreferrer"` to external links, and raised overlay `z-index` to `2147483647`.
+- **Visual Contrast:** Adjusted overlay opacity to `0.92` with a subtle `1px solid #333333` border to improve legibility on dark-mode websites.
+
+### Fixed
+- **Wikipedia Overlay Layout:** Positioned the dynamic Grokipedia link above the license attribution footer in `owt_wikipedia.js` and converted string concatenation to ES6 template literals.
+- **Formatting & Punctuation:** Fixed a missing colon after `Costs` in `owt_perl.js` and a malformed `<br  >` tag in `owt_wikipedia.js`.
+
 ## [1.2.1] - 2026-10-11
 
 ### Fixed
