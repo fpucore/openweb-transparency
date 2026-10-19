@@ -3,7 +3,7 @@
   "name": "OpenWeb Transparency",
   "short_name": "OWT",
   "version": "1.3.0",
-  "description": "Financial transparency for Tech Non-Profits, Foundations, and Wikipedia. Injects verified financial disclosures directly into your browser.",
+  "description": "Financial transparency for Tech Non-Profit & Foundations, in your web browser.",
   "author": "Chris McGimpsey-Jones",
   "icons": {
     "16": "icons/openweb-transparency-logo_16px.png",
