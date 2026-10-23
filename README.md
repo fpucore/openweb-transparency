@@ -1,4 +1,4 @@
-![OpenWeb Transparency logo](icons/openweb-transparency-logo_128px.png)
+![OpenWeb Transparency logo](chrome/icons/openweb-transparency-logo_128px.png)
 
 # 🕵️ OpenWeb Transparency
 
