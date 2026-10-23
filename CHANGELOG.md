@@ -6,6 +6,8 @@ All notable changes to the **OpenWeb Transparency** browser extension will be do
 
 ### Added
 - **DuckDuckGo and Ecosia Support:** Added `owt_duckduckgo.js` and `owt_ecosia.js` to display verified financial disclosures for DuckDuckGo UK Ltd. and Ecosia GmbH.
+- **Mozilla Firefox support:** Added support for Mozilla Firefox-based web browsers.
+- **Extension accessibility:** Extension now available in Chrome and Mozilla web stores for general availability.
 
 ### Changed
 - **Terminology Standardization:** Unified all overlay headers (`[Organization] — Financial Overview (YYYY)`), currency formatting (`US$`), financial metric labels (`Total Assets`, `Operating Expenses`, `Cash Reserves`, `Project Allocations`), and citation labels (`Verified Sources:`) across all 10 content scripts.

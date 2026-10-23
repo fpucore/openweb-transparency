@@ -42,10 +42,6 @@ OpenWeb Transparency currently injects financial disclosure overlays into the fo
 
 ## 🚀 Installation
 
-### From the Chrome Web Store
-
-https://chromewebstore.google.com/detail/openweb-transparency/jdaglfkabfcdngjgdgmkjnalbecfghjo
-
 ### Chromium-based Browsers
 1. Download the latest release `.zip` archive and extract it to a directory on your computer.
 2. Open your browser and navigate to `chrome://extensions` (or `brave://extensions`).
@@ -53,12 +49,15 @@ https://chromewebstore.google.com/detail/openweb-transparency/jdaglfkabfcdngjgdg
 4. Click **Load unpacked** and select the directory where you extracted the archive.
 5. *Boom! Done.* Visit Wikipedia or any supported organization site to see it in action.
 
-### Firefox-based Browsers (experimental)
-1. Download the latest release `.zip` archive and extract it to a directory on your computer.
-2. Open your browser and navigate to `about:debugging#/runtime/this-firefox`.
-3. Click **Load Temporary Add-on...** and select the `manifest.json` file from the directory where you extracted the archive.
+### From the Chrome Web Store
 
-*(Note: Temporary add-ons in Firefox are removed when the browser restarts. For permanent installation, the extension must be signed by Mozilla or installed via the official Firefox Add-ons store once published in the future).*
+https://chromewebstore.google.com/detail/openweb-transparency/jdaglfkabfcdngjgdgmkjnalbecfghjo
+
+### Firefox-based Browsers
+
+### From the Mozilla Firefox Extensions Store
+
+https://addons.mozilla.org/en-US/firefox/addon/openweb-transparency/
 
 ---
 
